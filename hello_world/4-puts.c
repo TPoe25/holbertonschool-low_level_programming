@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main- writing c program that prints line using puts
- *
- * return: always (0)
+ * main - writing c program that prints line using puts
+ * Return: always (0)
+ * Description: prints a string using puts command in c
  */
 
 int main(void)
