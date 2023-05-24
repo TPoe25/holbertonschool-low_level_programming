@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - c program that printst
- * return - always (0)
+ * Return:  always (0)
  * description: using printf to display lines in c
  */
 
