@@ -5,7 +5,7 @@
  * return: always (0)
  */
 
-int main(void)
+int main()
 {
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
