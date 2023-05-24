@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - c program that prints
- * printf - prints line of text
- * return: always (0)
+ * main - c program that printst
+ * return - always (0)
+ * description: using printf to display lines in c
  */
 
 int main(void)
