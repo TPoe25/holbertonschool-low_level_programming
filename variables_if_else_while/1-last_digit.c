@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - 
+ * main - last digit
  * Return: Always (0)
- * description: program to assign random number to variable n each time its executed
- * */
+ * description: program to assign random number to variable n each executed
+ **/
 
 int main(void)
 {
@@ -21,11 +21,11 @@ if (y > 5)
 {
 printf("Last digit of %i is %i and is greater than 5\n", n, y);
 }
-else if ((y==0))
+else if ((y == 0))
 {
 printf("Last digit of %i is %i and is 0\n", n, y);
 }
-else if ((y < 6)||(y != 0))
+else if ((y < 6) || (y != 0))
 {
 printf("Last digit of %i is %i and is less than 6 and not 0\n", n, y);
 }
