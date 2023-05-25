@@ -5,7 +5,7 @@
  * description: prints the alphabet in lowercase
  */
 
-int main (void)
+int main(void)
 {
 	char alphabet = 'a';
 
