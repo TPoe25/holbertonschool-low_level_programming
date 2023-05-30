@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main -
- * description:
+ * _putchar - puts characters in string
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
-	_putchar('\n');
+	printf("_putchar\n");
 	return (0);
 }
