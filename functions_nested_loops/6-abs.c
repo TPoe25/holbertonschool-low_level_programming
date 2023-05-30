@@ -2,8 +2,8 @@
 
 /**
  * _abs - computes the absolute value of an int
- *
- * Return: 0
+ * @n: input that is to be described
+ * Return: n, -n
  */
 
 int _abs(int n)
