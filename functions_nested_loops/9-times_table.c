@@ -8,7 +8,7 @@
 
 void times_table(void)
 {
-	int width; 
+	int width;
 	int length;
 	int num;
 	int tens;
