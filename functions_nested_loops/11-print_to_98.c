@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - prints all natural numbers
- * @n:
+ * @n: interger
  * Return: 0
  */
 
