@@ -11,16 +11,36 @@ void times_table(void)
 	int width; 
 	int length;
 	int num;
+	int tens;
+	int ones;
 
-	for(width = 1; width <= 10; width++)
+	for (width = 0; width < 9; width++)
 	{
-		length = 0;
-
-		while (length < 10)
+		for (length = 0; length < 9; length++)
 		{
 			num = width * length;
-			_putchar(num);
-			length++;
+			tens = num / 10;
+			ones = num % 10;
+
+			if (length == 0)
+			{
+				_putchar('0');
+			}
+			else if (num < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(ones + '0');
+			}
+			else
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(tens + '0');
+				_putchar(ones + '0');
+			}
 		}
+		_putchar('\n');
 	}
 }
