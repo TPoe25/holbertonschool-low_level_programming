@@ -14,9 +14,9 @@ void times_table(void)
 	int tens;
 	int ones;
 
-	for (width = 0; width < 9; width++)
+	for (width = 0; width <= 9; width++)
 	{
-		for (length = 0; length < 9; length++)
+		for (length = 0; length <= 9; length++)
 		{
 			num = width * length;
 			tens = num / 10;
