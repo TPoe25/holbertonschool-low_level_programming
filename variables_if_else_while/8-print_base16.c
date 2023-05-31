@@ -7,19 +7,12 @@
 
 int main(void)
 {
-	int num;
-	
-	for (num = 1; num < 17; num++)
-	
-	{	
-	
-	scanf(int num);
-	
-	putchar("%x");
+	char num;
 
-	putchar(int num);
-	
-	}
+	for (num = '0'; num <= '9'; num++)
+		putchar(num);
+	for (num = 'a'; num <= 'f'; num++)
+		putchar(num);
 
 	putchar('\n');
 
