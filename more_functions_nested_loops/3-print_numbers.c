@@ -9,15 +9,12 @@
 
 void print_numbers(void)
 {
-	char num;
+	int num;
 
-	num = 0;
-
-	while (num <= '9')
+	for (num = 0; num < 10; num++)
 
 	{
-		_putchar(num);
-		num++;
+		printf("%d", num);
 	}
 	_putchar('\n');
 }
