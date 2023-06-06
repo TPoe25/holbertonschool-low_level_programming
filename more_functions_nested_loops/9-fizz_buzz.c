@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * main - entry point
  * fizbuzz - code that is used to test coders
  * number: interger
  * Return: 0
@@ -15,19 +16,19 @@ int main(void)
 	{
 		if (number % 3 == 0 && number % 5 == 0)
 		{
-			printf("Fizzbuzz");
+			printf("Fizzbuzz ");
 		}
 		else if ((number % 3) == 0)
 		{
 			printf("Fizz ");
 		}
 		else if ((number % 5) == 0)
-		{	
+		{
 			printf("Buzz");
 			if (number != 100)
 				printf(" ");
 		}
-		else 
+		else
 		{
 			printf("%d ",  number);
 		}
