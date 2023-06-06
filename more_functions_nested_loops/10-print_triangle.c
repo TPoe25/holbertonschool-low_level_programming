@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * print_triangle - prints triangle on screen
- * @size: int 1
- * @left int 2
- * @right int 3
- * @top: int 4
+ * print_triangle - slashes on screen
+ * @size: int
  * Return: void
  */
 
