@@ -3,7 +3,7 @@
 
 /**
  * print_line - prints a straight line in terminal
- *
+ * @n: int
  * Return: void
  */
 
@@ -13,7 +13,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-	for (c = 0; c < n; c++)
+	for (c=0; c<n; c++)
 		{
 			_putchar('_');
 		}
