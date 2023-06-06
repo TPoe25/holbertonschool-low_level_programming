@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		x++;
 	}
-	
+
 	full = x - 1;
 	semi = full / 2;
 	while (semi >= 0)
