@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_squares(int size)
+void print_square(int size)
 {
 	if (size > 0)
 	{
@@ -25,6 +25,5 @@ void print_squares(int size)
 			length++;
 		}
 	}
-	else
 	_putchar('\n');
 }
