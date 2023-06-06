@@ -11,23 +11,9 @@ void more_numbers(void)
 {
 	int list;
 
-	while (list < 11)
+	for (list = 0; list < 15; list++)
 	{
-		char numbers;
-
-		numbers = '0';
-
-		while (numbers <= '14')
-		{
-			_putchar(numbers);
-
-			numbers++;
-		}
-
-	_putchar('\n');
-
-	list++;
-	
+		_putchar(list);
 	}
-
+	_putchar('\n');
 }
