@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	int rope;
 
-	for (rope = 0; str[rope] |= '\0'; rope++)
+	for (rope = 0; str[rope] != '\0'; rope++)
 	{
 		if (rope % 2 == 0)
 			_putchar(str[rope]);
