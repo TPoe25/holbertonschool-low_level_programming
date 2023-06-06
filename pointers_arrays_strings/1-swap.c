@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swaps values of 2 intergers
- * *a: first parameter
- * *b: second parameter
+ * @a: first parameter
+ * @b: second parameter
  * Return: void
  */
 
