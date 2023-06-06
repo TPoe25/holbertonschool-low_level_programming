@@ -1,11 +1,11 @@
+#include "main.h"
+
 /**
  * fizbuzz - code that is used to test coders
  * number: interger
  * Return: 0
  */
 
-#include "main.h"
-#include <stdio.h>
 
 int main(void)
 {
@@ -25,7 +25,7 @@ int main(void)
 		{	
 			printf("Buzz");
 			if (number != 100)
-				printf(" ";
+				printf(" ");
 		}
 		else 
 		{
