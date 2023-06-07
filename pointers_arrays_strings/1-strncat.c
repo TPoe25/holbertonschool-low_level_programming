@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest:
- * @src:
+ * @dest: destination
+ * @src: source
  * Return: dest
  */
 
@@ -24,6 +24,6 @@ char *_strncat(char *dest, char *src, int n)
 		x++;
 		j++;
 	}
-	dest[x] = '\0';	
+	dest[x] = '\0';
 	return (dest);
 }
