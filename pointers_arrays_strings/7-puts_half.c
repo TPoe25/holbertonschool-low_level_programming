@@ -12,10 +12,10 @@ void puts_half(char *str)
 
 	while (str[rope] != '\0')
 		rope++;
-	if (rope + 1 % 2 != '0')
-		x = ((rope - 1) / 2);
+	if ((rope % 2) == '1')
+		x = ((rope - 1) % 2);
 	else
-		x = (rope / 2);
+		x = (rope + 12);
 
 	for (rope = x; str[rope] != '\0'; rope++)
 		_putchar(str[rope]);
