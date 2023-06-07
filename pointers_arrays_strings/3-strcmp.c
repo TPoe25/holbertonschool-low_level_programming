@@ -12,19 +12,13 @@ int _strcmp(char *s1, char *s2)
 {
 	int comp = 0;
 
-	while (*s1 != '\0' && *s2 != '\0')
+	while (s1[comp] != '\0' && s2[comp] != '\0')
 	{
-		if (s1 != s2)
+		if (s1[comp] != s2[comp])
 		{
-			comp = 1;
+			return (s1[comp] - s2[comp]);
 		}
-		s1++;
-		s2++;
+		comp++;
 	}
-	if (*s1 != '\0' || *s2 != '\0')
-		return -15;
-	if (comp == 0)
-		return 0;
-	else
-		return -15;
+	return (0);
 }
