@@ -16,8 +16,8 @@ int is_prime(int num, int r)
 	{
 		return (1);
 	}
-	return is_prime(num, r + 1);
-	
+	return (is_prime(num, r + 1));
+
 }
 /**
  * is_prime_number - returns if input interger is prime number
@@ -36,5 +36,5 @@ int is_prime_number(int n)
 		return (1);
 	}
 
-	return(is_prime(n, 2));
+	return (is_prime(n, 2));
 }
