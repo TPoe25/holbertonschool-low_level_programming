@@ -3,12 +3,32 @@
 #include <stdlib.h>
 
 /**
- * _
- *
- *
+ * _atoi - entry
+ * @s: input
+ * Return: result
  */
 
 int _atoi(char *s)
 {
-	char 
+	int x = 1;
+	unsigned int num = 0;
+	char *str = s;
+
+	while (*str != '\0' && (*str < '0' || *str > '9'))
+	{
+		if (*str == '-')
+		{
+			x *= -1;
+		}
+		str++;
+	}
+	if (*str != '\0')
+	{
+		while (*str >= '0' && *str <= '9')
+		{
+			num = num * 10 + (*str - '0');
+			str++;
+		}
+	}
+	return (num * x);
 }
