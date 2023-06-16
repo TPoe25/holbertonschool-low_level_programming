@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _pow_recursion -
- * @x:
- * @y:
+ * _pow_recursion - entry
+ * @x: input
+ * @y: input
  * Return: -1
  */
 
