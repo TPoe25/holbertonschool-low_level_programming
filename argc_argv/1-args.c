@@ -1,13 +1,25 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+/**
+ * main - entry point
+ * @argc: arg
+ * @argv: arg
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
 {
-	int i;
-	printf("%d\n", argc);
-	for (i = 0; i < argc; i++)
+	int i = 0;
+
+	while (argc--)
 	{
-		printf("%s", argv[i]);
+		i++;
 	}
-	exit(EXIT_SUCCESS);
+	i--;
+	if (argv[0])
+	{
+		printf("%d\n", i);
+	}
+	return (0);
 }
