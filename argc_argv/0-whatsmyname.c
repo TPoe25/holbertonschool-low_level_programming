@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - entry
+ */
+
 int main(int argc, char **argv)
 {
 	while (argc--)
