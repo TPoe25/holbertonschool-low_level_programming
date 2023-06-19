@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - entry
+ * main - entry point
+ * @argc: arg
+ * @argv: arg
+ * Return: 0
  */
 
 int main(int argc, char **argv)
