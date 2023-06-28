@@ -5,9 +5,6 @@
  * main - entry
  * @argc: arg count
  * @argv: arg vector
- * @a: 1st num
- * @b: 2nd num
- * @result: result
  * Return: 0
  */
 
@@ -23,7 +20,7 @@ int main(int argc, char *argv[])
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
-	result = a*b;
+	result = a * b;
 
 	printf("%d\n", result);
 
