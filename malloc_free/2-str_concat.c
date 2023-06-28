@@ -29,4 +29,22 @@ char *_strncat(char *dest, char *src, int n)
 	return (dest);
 }
 
+char *str_concat(char *s1, char *s2)
+{
+	int i;
+	int dest;
+	char *str;
 
+	dest = _strncat(*s1, *s2, i);
+	c = malloc(dest * sizeof(char));
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; i < dest; i++)
+	{
+		s1[i] = s2[i];
+	}
+	return (dest);
+}
