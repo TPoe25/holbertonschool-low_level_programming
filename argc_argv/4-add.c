@@ -5,14 +5,14 @@
  * main - entry
  * @argc: arg count
  * @argv: arg vector
- * Result: 0
+ * Result: success
  */
 
 int main(int argc, char *argv[])
 {
 	int a, b, sum;
 
-	if (argc == ' ')
+	if (argc != 3)
 	{
 		printf("0\n");
 		return (-1);
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	if (argv[1][2] < '0' || argv[1][2] > '9')
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	a = atoi(argv[1]);
