@@ -1,6 +1,9 @@
 #ifndef DOG_H
 #define DOG_H
-//structure for dog//
+/**
+ * struct dog - structure to add info
+ */
+
 typedef struct dog
 {
 	char *name;
