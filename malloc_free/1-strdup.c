@@ -18,7 +18,7 @@ int _strlen(char *s)
 
 /**
  *  _strdup - returns pointers to a newly allocated space in memory
- *  @str- char
+ *  @str: char
  *  Return: result
  */
 
