@@ -32,6 +32,7 @@ char *_strncat(char *dest, char *src, int n)
  * str_concat - funcation that concats two strings
  * @s1: int
  * @s2: int
+ * Return: result
  */
 
 char *str_concat(char *s1, char *s2)
