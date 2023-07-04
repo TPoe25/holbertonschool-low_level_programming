@@ -31,20 +31,30 @@ char *_strncat(char *dest, char *src, int n)
 
 char *str_concat(char *s1, char *s2)
 {
+	char *_strncat;
 	int i;
-	int dest;
-	char *str;
+	int strncat = 0;
+	int dest = 0;
 
-	dest = _strncat(*s1, *s2, i);
-	c = malloc(dest * sizeof(char));
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 ==  NULL)
+		s2 = "";
+	for (i = 0; s1[i] || s2[i]; i++)
+		dest++;
 
-	if (str == NULL)
+	_strncat = malloc(sizeof(char) * dest);
+
+	if (_strncat == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < dest; i++)
-	{
-		s1[i] = s2[i];
-	}
-	return (dest);
+	for (i = 0; s1[i]; i++)
+		_strncat[strncat++] = s1[i];
+
+	for (i = 0; s2[i]; i++)
+		_strncat[strncat++] = s2[i];
+
+	return (_strncat);
+	free(_strncat);
 }
