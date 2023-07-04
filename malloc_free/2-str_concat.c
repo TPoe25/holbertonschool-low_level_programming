@@ -28,6 +28,11 @@ char *_strncat(char *dest, char *src, int n)
 	dest[x] = '\0';
 	return (dest);
 }
+/**
+ * str_concat - funcation that concats two strings
+ * @s1: int
+ * @s2: int
+ */
 
 char *str_concat(char *s1, char *s2)
 {
