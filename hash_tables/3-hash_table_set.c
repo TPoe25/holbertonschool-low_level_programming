@@ -2,6 +2,7 @@
 
 /**
  * hash_table_set - adds an element to the hash table
+ * @ht: table
  * @key: key
  * @value: char
  * Return: result
