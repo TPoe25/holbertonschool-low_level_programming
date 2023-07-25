@@ -2,6 +2,7 @@
 
 /**
  * key_index - gives the index of a key
+ * @key: key
  * @size: array of the hash table
  * Return: index at which the key/value pair is stored in array of hash table
  */
