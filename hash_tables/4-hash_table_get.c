@@ -26,10 +26,10 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	while (now != NULL)
 	{
 		/* compares string using strcmp  */
-		
+
 		if (strcmp(now->key, key) == 0)
 			return (now->value);
-		
+
 		now = now->next;
 	}
 
