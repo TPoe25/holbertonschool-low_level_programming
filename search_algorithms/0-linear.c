@@ -15,7 +15,7 @@ int linear_search(int *array, size_t size, int value)
 		return (-1); }
 	for (i = 0; i < size; i++)
 	{
-		printf("Comparing value %d with array[%lu] = %d\n", value, (unsigned long)i, array[i]);
+		printf("Comparing value %d with array[%lu] = [%d]\n", value, (unsigned long)i, array[i]);
 		if (array[i] == value)
 			return (i); /* Found the value at index i */
 	}
